@@ -20,7 +20,7 @@ export function SkillChart({ data }: SkillChartProps) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
   // 1. MOVED INSIDE: Custom Tooltip now has access to 'activeIndex'
-  const CustomTooltip = ({ active, payload, label }: TooltipProps<number, string>) => {
+  const CustomTooltip = ({ active, payload, label }: any) => {
     // The Logic: 
     // active = Recharts thinks mouse is in the row (True even in white space)
     // activeIndex !== null = Mouse is actually hitting the coloured Bar (Our custom tracker)
