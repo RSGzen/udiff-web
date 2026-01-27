@@ -59,6 +59,7 @@ UDiff is an intelligent career dashboard designed to help university students tr
 
 ## 📂 Project Structure
 
+```bash
 src/
 ├── app/                  # Next.js App Router pages
 │   ├── curriculum/       # Curriculum Check feature
@@ -73,6 +74,7 @@ src/
 │   ├── roadmaps.json     # Career Path Definitions
 │   └── skill_class.json  # Semantic Synonym Dictionary
 └── lib/                  # Utilities
+```
 
 ## 🔮 Future Roadmap
 
