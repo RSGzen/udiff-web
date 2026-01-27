@@ -1,0 +1,324 @@
+{
+  "Backend": {
+    "role": "Backend Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: The Foundation",
+        "description": "The bedrock of server-side logic.",
+        "skills": ["Python (Basic Syntax)", "Java (Basic Syntax)", "Git & Version Control", "SQL (Basic Queries)", "HTTP & APIs"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Job Ready",
+        "description": "Building functional, database-backed applications.",
+        "skills": ["Spring Boot (Java)", "Django/Flask (Python)", "MySQL/PostgreSQL", "RESTful API Design", "Authentication (JWT)"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Senior Architect",
+        "description": "Scaling, deploying, and optimizing systems.",
+        "skills": ["Docker & Containerization", "Microservices Architecture", "Redis & Caching", "CI/CD Pipelines", "Cloud Deployment (AWS/Azure)"]
+      }
+    ]
+  },
+  "Frontend Web": {
+    "role": "Frontend Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: The Basics",
+        "description": "Structure, Style, and Interactivity.",
+        "skills": ["HTML5 Semantic", "CSS3 & Flexbox/Grid", "JavaScript (ES6+)", "Git Basics", "Figma (Reading Designs)"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Modern Frameworks",
+        "description": "Building complex, interactive SPAs.",
+        "skills": ["React.js", "TypeScript", "Tailwind CSS", "State Management (Redux/Zustand)", "Fetching APIs"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Full Stack & Performance",
+        "description": "Server-side rendering and optimization.",
+        "skills": ["Next.js", "SEO Optimization", "Unit Testing (Jest/Vitest)", "CI/CD for Frontend", "Web Accessibility (a11y)"]
+      }
+    ]
+  },
+  "AI & Machine Learning": {
+    "role": "AI Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Math & Code",
+        "description": "Data manipulation and statistical basics.",
+        "skills": ["Python Mastery", "NumPy & Pandas", "SQL for Data Extraction", "Linear Algebra Basics", "Data Visualization (Matplotlib)"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Model Builder",
+        "description": "Training and evaluating models.",
+        "skills": ["Scikit-Learn", "PyTorch / TensorFlow", "Computer Vision (OpenCV)", "NLP Basics", "Model Evaluation Metrics"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: MLOps & Production",
+        "description": "Deploying models to the real world.",
+        "skills": ["Docker for ML", "Model Deployment (FastAPI)", "Cloud AI Services (AWS/Azure)", "RAG & LLMs (LangChain)", "Kubernetes"]
+      }
+    ]
+  },
+  "Data & Analytics": {
+    "role": "Data Analyst / Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Data Literacy",
+        "description": "Extracting and understanding data.",
+        "skills": ["Excel (Advanced)", "SQL (Joins/Aggregates)", "Python Basics", "Statistics 101"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Visualization & ETL",
+        "description": "Turning raw data into insights.",
+        "skills": ["Power BI / Tableau", "Advanced SQL", "Pandas for Cleaning", "Data Modeling Concepts"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Big Data Engineering",
+        "description": "Handling massive scale data.",
+        "skills": ["Spark / Databricks", "Cloud Data Warehouses (Snowflake)", "Airflow (Orchestration)", "NoSQL Databases"]
+      }
+    ]
+  },
+  "Fullstack": {
+    "role": "Fullstack Developer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: The Two Sides",
+        "description": "Understanding how frontend meets backend.",
+        "skills": ["HTML/CSS/JS", "Python or Node.js Basics", "Git", "HTTP Protocol"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: The MERN/PERN Stack",
+        "description": "Building complete web apps.",
+        "skills": ["React & TypeScript", "Node.js / Express", "PostgreSQL / MongoDB", "REST APIs", "Authentication"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: System Design",
+        "description": "Security, Scalability, and Cloud.",
+        "skills": ["Next.js (App Router)", "Docker", "AWS Basics", "System Design Patterns", "GraphQL"]
+      }
+    ]
+  },
+  "Cybersecurity": {
+    "role": "Cybersecurity Specialist",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Networks & Systems",
+        "description": "How computers talk and break.",
+        "skills": ["Networking (TCP/IP, DNS)", "Linux Administration", "Python Scripting", "Windows Internals"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Defense & Analysis",
+        "description": "Protecting infrastructure.",
+        "skills": ["Firewall Configuration", "SIEM Tools (Splunk)", "Vulnerability Scanning", "Incident Response Basics", "SQL"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Cloud & Offense",
+        "description": "Advanced securing and testing.",
+        "skills": ["Cloud Security (AWS/Azure)", "Penetration Testing Tools", "DevSecOps", "Compliance (ISO 27001)"]
+      }
+    ]
+  },
+  "Mobile Development": {
+    "role": "Mobile Developer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: App Basics",
+        "description": "Screens and Logic.",
+        "skills": ["Dart (for Flutter) or Kotlin", "UI Layouts", "Git", "OOP Concepts"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Functional Apps",
+        "description": "Connecting apps to the world.",
+        "skills": ["Flutter / React Native", "State Management", "API Integration", "Local Storage", "Firebase"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Store Ready",
+        "description": "Polishing and Releasing.",
+        "skills": ["Native Modules (iOS/Android)", "CI/CD for Mobile", "App Store Guidelines", "Performance Profiling"]
+      }
+    ]
+  },
+  "Cloud & DevOps": {
+    "role": "DevOps Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: SysAdmin",
+        "description": "Mastering the server.",
+        "skills": ["Linux (Bash Scripting)", "Networking Basics", "Python", "Git flows"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: The Cloud",
+        "description": "Automating infrastructure.",
+        "skills": ["AWS / Azure Core Services", "Docker", "Jenkins / GitHub Actions", "Terraform (IaC)"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Orchestration",
+        "description": "Managing scale.",
+        "skills": ["Kubernetes", "Helm", "Prometheus/Grafana", "Cloud Security", "Site Reliability Eng (SRE)"]
+      }
+    ]
+  },
+  "Embedded/Systems": {
+    "role": "Embedded Systems Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Bare Metal Basics",
+        "description": "Understanding hardware-software interaction.",
+        "skills": ["C/C++ Mastery", "Basic Electronics (Circuit Reading)", "Python for Scripting", "Microcontroller Basics (Arduino/STM32)", "Git Version Control"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Real-Time & OS",
+        "description": "Managing resources and timing constraints.",
+        "skills": ["RTOS Concepts", "Linux System Programming", "Communication Protocols (UART/I2C/SPI)", "Debugging (JTAG/GDB)", "PCB Design Basics"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: System Architect",
+        "description": "Complex integration and kernel development.",
+        "skills": ["Linux Kernel/Driver Development", "System Architecture Design", "IoT Protocols (MQTT/CoAP)", "FPGA Basics (Verilog/VHDL)", "Safety Critical Systems (ISO 26262)"]
+      }
+    ]
+  },
+  "General Software Engineering": {
+    "role": "Software Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: CS Fundamentals",
+        "description": "The universal language of coding.",
+        "skills": ["Python or Java Mastery", "Data Structures & Algorithms", "SQL Basics", "Git & GitHub Flow", "OOP Principles"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: App Builder",
+        "description": "Creating robust, scalable applications.",
+        "skills": ["REST APIs Design", "Database Design (Normalization)", "Testing (Unit/Integration)", "Docker Basics", "CI/CD Concepts"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: System Design",
+        "description": "Architecting for scale and reliability.",
+        "skills": ["System Design Patterns", "Cloud Services (AWS/Azure)", "Microservices", "Distributed Systems", "Performance Profiling"]
+      }
+    ]
+  },
+  "Hardware & Manufacturing": {
+    "role": "Hardware/Manufacturing Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Design Tools",
+        "description": "Visualizing and planning builds.",
+        "skills": ["AutoCAD", "SolidWorks/CAD Modeling", "Basic Circuit Analysis", "Technical Drawing Standards", "Microsoft Office/Excel (Reporting)"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Automation & Control",
+        "description": "Making things move and work.",
+        "skills": ["PLC Programming", "Industrial Automation", "Electrical Wiring/Schematics", "Python for Data Analysis", "Quality Control Standards (ISO)"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Process Optimization",
+        "description": "Scaling production efficiency.",
+        "skills": ["SCADA Systems", "IoT Integration (Smart Factory)", "Process Engineering (Six Sigma)", "Project Management", "Robotics Integration"]
+      }
+    ]
+  },
+  "IT Support": {
+    "role": "IT Support Specialist",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Helpdesk Hero",
+        "description": "First line of defense.",
+        "skills": ["Windows OS Troubleshooting", "Computer Hardware Repair", "Printer/Peripheral Support", "Ticketing Systems (Jira/ServiceNow)", "Basic Networking (LAN/WAN)"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: SysAdmin Junior",
+        "description": "Managing users and access.",
+        "skills": ["Active Directory Management", "Office 365 Admin", "Linux Command Line", "Scripting (PowerShell/Python)", "Network Configuration (DNS/DHCP)"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Infrastructure Lead",
+        "description": "Ensuring uptime and security.",
+        "skills": ["Virtualization (VMware/Hyper-V)", "Cloud Administration (Azure/AWS)", "Cybersecurity Basics", "MDM (Mobile Device Mgmt)", "Disaster Recovery Planning"]
+      }
+    ]
+  },
+  "Network & Infrastructure": {
+    "role": "Network Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: The Pipes",
+        "description": "How data moves.",
+        "skills": ["TCP/IP Model Mastery", "Subnetting & Routing", "Cisco CLI Basics", "Linux Administration", "Python Scripting"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Enterprise Admin",
+        "description": "Running large scale networks.",
+        "skills": ["Windows Server Admin", "Active Directory & GPO", "Firewall Configuration", "Virtualization (VMware)", "VLANs & Switching"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: Cloud Architect",
+        "description": "Hybrid and cloud-native infrastructure.",
+        "skills": ["Infrastructure as Code (Terraform)", "Cloud Networking (AWS VPC/Azure VNet)", "Kubernetes Networking", "SD-WAN", "Network Security Architecture"]
+      }
+    ]
+  },
+  "QA & Testing": {
+    "role": "QA Engineer",
+    "phases": [
+      {
+        "id": "foundation",
+        "title": "Phase 1: Quality Mindset",
+        "description": "Finding bugs manually.",
+        "skills": ["Manual Testing Methodologies", "Test Case Writing", "Jira/Bug Tracking", "SQL for Data Verification", "Agile/Scrum Basics"]
+      },
+      {
+        "id": "core",
+        "title": "Phase 2: Automation",
+        "description": "Writing code to test code.",
+        "skills": ["Python for Scripting", "Selenium/Playwright", "API Testing (Postman)", "Git Version Control", "CI/CD Integration"]
+      },
+      {
+        "id": "advanced",
+        "title": "Phase 3: SDET",
+        "description": "Building testing infrastructure.",
+        "skills": ["Test Framework Design", "Performance Testing (JMeter/K6)", "Security Testing Basics", "Containerization (Docker)", "Mobile Automation (Appium)"]
+      }
+    ]
+  }
+}
