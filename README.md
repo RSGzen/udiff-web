@@ -30,6 +30,9 @@ UDiff is an intelligent career dashboard designed to help university students tr
 
 ![Dashboard Screenshot](/public/screenshots/curriculum_check1.png)
 
+## 🔗 Link to Website
+[Have a look for yourself!](https://udiff-web.vercel.app/)
+
 ## 🛠️ Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
