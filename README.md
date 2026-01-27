@@ -13,14 +13,22 @@ UDiff is an intelligent career dashboard designed to help university students tr
 - **Smart Filtering:** Segment data by role (Backend, AI, Security) and seniority (Junior, Mid, Senior).
 - **Focus Mode:** Interactive "Dim & Focus" UX patterns to highlight key data points without visual clutter.
 
+![Dashboard Screenshot](/screenshots/main_page1.png)
+![Dashboard Screenshot](/screenshots/main_page2.png)
+![Dashboard Screenshot](/screenshots/main_page3.png)
+
 ### 2. Gamified Career Roadmaps
 - **Dynamic Progression:** A "Tech Tree" style roadmap for 15+ career paths.
 - **Phase-Locking System:** Users must complete "Foundation" skills before unlocking "Advanced" tiers, enforcing structured learning.
 - **Persistent Progress:** Local state management tracks user progress across different career paths.
 
+![Dashboard Screenshot](/screenshots/career_path1.png)
+
 ### 3. Curriculum Gap Analyzer (Beta)
 - **Client-Side Semantic Search:** A fast, privacy-focused keyword matcher that scans user syllabi against market demands.
 - **Semantic Expansion:** Utilizes a pre-computed "Brain" (`skill_class.json`) to map university course titles (e.g., "CS101") to industry skills (e.g., "Python"), enabling robust matching without expensive LLM calls.
+
+![Dashboard Screenshot](/screenshots/curriculum_check1.png)
 
 ## 🛠️ Tech Stack
 
@@ -37,3 +45,39 @@ UDiff is an intelligent career dashboard designed to help university students tr
    ```bash
    git clone [https://github.com/yourusername/udiff.git](https://github.com/yourusername/udiff.git)
    cd udiff
+
+2. **Install dependencies**
+    ```bash
+    npm install
+
+3. **Run the development server**
+    ```bash
+    npm run dev
+
+4. **Open your browser**
+    Navigate to http://localhost:3000 to see the website.
+
+## 📂 Project Structure
+
+src/
+├── app/                  # Next.js App Router pages
+│   ├── curriculum/       # Curriculum Check feature
+│   ├── roadmap/          # Interactive Roadmap feature
+│   └── page.tsx          # Main Dashboard
+├── components/
+│   ├── dashboard/        # Charts & Metric Cards
+│   ├── ui/               # Shadcn Reusable Components
+│   └── Sidebar.tsx       # Main Navigation
+├── data/
+│   ├── gap_report.json   # Market Analysis Data
+│   ├── roadmaps.json     # Career Path Definitions
+│   └── skill_class.json  # Semantic Synonym Dictionary
+└── lib/                  # Utilities
+
+## 🔮 Future Roadmap
+
+[ ] Live Scraping Pipeline: Automate the gap_report.json updates using Python/Scrapy.
+
+[ ] LLM Integration: Replace the keyword matcher with a local LLM (Ollama) for deeper syllabus understanding.
+
+[ ] User Auth: Save progress to a database (Supabase/Firebase).
