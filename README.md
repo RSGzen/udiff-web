@@ -13,22 +13,22 @@ UDiff is an intelligent career dashboard designed to help university students tr
 - **Smart Filtering:** Segment data by role (Backend, AI, Security) and seniority (Junior, Mid, Senior).
 - **Focus Mode:** Interactive "Dim & Focus" UX patterns to highlight key data points without visual clutter.
 
-![Dashboard Screenshot](/screenshots/main_page1.png)
-![Dashboard Screenshot](/screenshots/main_page2.png)
-![Dashboard Screenshot](/screenshots/main_page3.png)
+![Dashboard Screenshot](/public/screenshots/main_page1.png)
+![Dashboard Screenshot](/public/screenshots/main_page2.png)
+![Dashboard Screenshot](/public/screenshots/main_page3.png)
 
 ### 2. Gamified Career Roadmaps
 - **Dynamic Progression:** A "Tech Tree" style roadmap for 15+ career paths.
 - **Phase-Locking System:** Users must complete "Foundation" skills before unlocking "Advanced" tiers, enforcing structured learning.
 - **Persistent Progress:** Local state management tracks user progress across different career paths.
 
-![Dashboard Screenshot](/screenshots/career_path1.png)
+![Dashboard Screenshot](/public/screenshots/career_path1.png)
 
 ### 3. Curriculum Gap Analyzer (Beta)
 - **Client-Side Semantic Search:** A fast, privacy-focused keyword matcher that scans user syllabi against market demands.
 - **Semantic Expansion:** Utilizes a pre-computed "Brain" (`skill_class.json`) to map university course titles (e.g., "CS101") to industry skills (e.g., "Python"), enabling robust matching without expensive LLM calls.
 
-![Dashboard Screenshot](/screenshots/curriculum_check1.png)
+![Dashboard Screenshot](/public/screenshots/curriculum_check1.png)
 
 ## 🛠️ Tech Stack
 
