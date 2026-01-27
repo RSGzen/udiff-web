@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UDiff: University Diff
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-3.0-38bdf8) ![License](https://img.shields.io/badge/License-MIT-green)
 
-First, run the development server:
+**Bridging the gap between Academic Curricula and Industry Reality.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+UDiff is an intelligent career dashboard designed to help university students transition into founders and engineers. It analyzes live job market data to visualize the "gap" between what universities teach and what companies actually hire for.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Market Gap Dashboard
+- **Real-time Visualization:** Interactive Bar Charts and Treemaps (built with `recharts`) showing the most in-demand hard skills and technical contexts.
+- **Smart Filtering:** Segment data by role (Backend, AI, Security) and seniority (Junior, Mid, Senior).
+- **Focus Mode:** Interactive "Dim & Focus" UX patterns to highlight key data points without visual clutter.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Gamified Career Roadmaps
+- **Dynamic Progression:** A "Tech Tree" style roadmap for 15+ career paths.
+- **Phase-Locking System:** Users must complete "Foundation" skills before unlocking "Advanced" tiers, enforcing structured learning.
+- **Persistent Progress:** Local state management tracks user progress across different career paths.
 
-## Learn More
+### 3. Curriculum Gap Analyzer (Beta)
+- **Client-Side Semantic Search:** A fast, privacy-focused keyword matcher that scans user syllabi against market demands.
+- **Semantic Expansion:** Utilizes a pre-computed "Brain" (`skill_class.json`) to map university course titles (e.g., "CS101") to industry skills (e.g., "Python"), enabling robust matching without expensive LLM calls.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + Shadcn UI
+- **Visualization:** Recharts
+- **Data:** Custom JSON datasets (Scraped & Synthesized)
+- **Deployment:** Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Getting Started
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/yourusername/udiff.git](https://github.com/yourusername/udiff.git)
+   cd udiff
