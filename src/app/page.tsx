@@ -35,6 +35,11 @@ export default function Home() {
   const jobCount = stats.job_count || 0
   const minSalary = stats.salary?.avg_min || 0
   const maxSalary = stats.salary?.avg_max || 0
+
+  // FIX: Create a display variable that handles the "0 - 0" case
+  const salaryDisplay = (minSalary === 0 && maxSalary === 0) 
+    ? "N/A" 
+    : `RM ${minSalary.toLocaleString()} - ${maxSalary.toLocaleString()}`
   
   // Market share is relative to the TOTAL jobs in this category
   // e.g. "Junior Backend" share of "All Backend"
@@ -88,7 +93,7 @@ export default function Home() {
             />
             <MetricCard 
               title="Avg. Base Salary" 
-              value={`RM ${minSalary.toLocaleString()} - ${maxSalary.toLocaleString()}`} 
+              value={salaryDisplay}
               subtext="Monthly Estimate (MYR)"
               icon={DollarSign}
             />
